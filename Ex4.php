@@ -1,4 +1,6 @@
-// Cho một mảng 2 chiều a gồm các số tự nhiên. Hãy tính tổng tất cả các số nguyên tố trong mảng 2 chiều đó
+// Cho một mảng 2 chiều a gồm các số tự nhiên. 
+// Hãy tính tổng tất cả các số nguyên tố trong mảng 2 chiều đó
+
 <?php
 // Hàm kiểm tra số nguyên tố
 function isPrime($num) {
@@ -12,7 +14,6 @@ function isPrime($num) {
     }
     return true;
 }
-
 // Hàm tính tổng các số nguyên tố trong mảng 2 chiều
 function sumOfPrimes($array) {
     $sum = 0;
@@ -30,7 +31,7 @@ function sumOfPrimes($array) {
 function inputArray() {
     $array = [];
     $rows = (int)readline("Nhập số lượng hàng của mảng: ");
-    for ($i = 0; $i < $rows; $i++) {
+    for($i = 0; $i < $rows; $i++) {
         $row = readline("Nhập các phần tử của hàng " . ($i + 1) . " (cách nhau bởi dấu cách): ");
         $array[] = array_map('intval', explode(' ', $row));
     }
