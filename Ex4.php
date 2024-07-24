@@ -1,3 +1,4 @@
+// Cho một mảng 2 chiều a gồm các số tự nhiên. Hãy tính tổng tất cả các số nguyên tố trong mảng 2 chiều đó
 <?php
 // Hàm kiểm tra số nguyên tố
 function isPrime($num) {
