@@ -30,7 +30,6 @@ function findMaxSumArithmeticSequence($numbers) {
             }
         }
     }
-
     return $maxSum;
 }
 
