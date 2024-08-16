@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nguyễn Đức Minh</h1>
-<h3 align="center">A student in UET,HaNoi,VietNam, passionate in Coding</h3>
+<h3 align="center">A student in VietNam (UET, HaNoi, VietNam), passionate in Coding</h3>
 
 - 🔭 Đây là các bài tập ở công ty thực tập **FamilySoft**
 
